@@ -1,6 +1,6 @@
 <template>
   <Swiper
-    class="h-96 md:h-600"
+    class="h-72 md:h-600"
     :modules="[SwiperAutoplay, SwiperEffectCreative]"
     :slides-per-view="1"
     :loop="true"
@@ -20,7 +20,7 @@
     }"
   >
     <SwiperSlide v-for="slide in imageList" :key="slide">
-      <img :src="slide" class="object-contain">
+      <img :src="slide" class="h-72 object-cover md:h-full md:w-full">
     </SwiperSlide>
   </Swiper>
 </template>

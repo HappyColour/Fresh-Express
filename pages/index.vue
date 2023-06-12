@@ -5,5 +5,7 @@
 <template>
   <div>
     <IndexSwiper/>
+    <CoreBusiness/>
   </div>
 </template>
+ 
