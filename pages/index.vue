@@ -5,7 +5,9 @@
 <template>
   <div>
     <IndexSwiper/>
-    <CoreBusiness/>
+    <div class="container mx-auto">
+      <CoreBusiness/>
+    </div>
   </div>
 </template>
  
