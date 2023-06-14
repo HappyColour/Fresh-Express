@@ -6,6 +6,7 @@
   <div>
     <IndexSwiper/>
     <div class="container mx-auto">
+      <BusinessModel/>
       <CoreBusiness/>
     </div>
   </div>
