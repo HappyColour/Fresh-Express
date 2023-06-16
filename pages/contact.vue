@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto">
-    <div class="font-bold mc">
+    <div class="mc">
       <h2 class="text-xl text-center mt-10 md:mt-20 md:text-3xl">联系我们</h2>
       <div class="w-full md:w-1/2 mx-auto text-lg mt-10 md:mt-12 px-4 md:text-xl">
         <h3>公司名称：北京冷捷科技有限公司</h3>
