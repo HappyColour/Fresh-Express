@@ -3,7 +3,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxtjs/tailwindcss',
-    'nuxt-swiper'
+    'nuxt-swiper',
+    '@nuxtjs/robots',
+    'nuxt-simple-sitemap',
+    // '@vite-pwa/nuxt'
   ],
   tailwindcss: {
     // add '~tailwind.config` alias

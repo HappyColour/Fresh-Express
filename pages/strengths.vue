@@ -1,3 +1,8 @@
+<script setup lang="ts">
+useHead({
+  title: '核心价值',
+})
+</script>
 <template>
   <div class="container mx-auto mc">
     <h2 class="text-center mc font-bold text-xl py-4 md:text-3xl md:py-10">核心价值</h2>

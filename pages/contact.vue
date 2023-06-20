@@ -1,3 +1,8 @@
+<script setup lang="ts">
+useHead({
+  title: '联系我们',
+})
+</script>
 <template>
   <div class="container mx-auto">
     <div class="mc">

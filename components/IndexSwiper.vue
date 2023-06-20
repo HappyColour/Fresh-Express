@@ -1,14 +1,16 @@
 <template>
   <Swiper
     class="h-72 md:h-600"
-    :modules="[SwiperAutoplay, SwiperEffectCreative]"
+    :modules="[SwiperNavigation, SwiperPagination, SwiperAutoplay, SwiperEffectCreative]"
     :slides-per-view="1"
     :loop="true"
     :effect="'creative'"
-    :autoplay="{
+    :autoplay="{  
       delay: 8000,
       disableOnInteraction: true,
     }"
+    :navigation="{}"
+    :pagination="{clickable: true}"
     :creative-effect="{
       prev: {
         shadow: false,

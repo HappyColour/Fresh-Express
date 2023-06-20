@@ -1,3 +1,8 @@
+<script setup lang="ts">
+useHead({
+  title: '关于冷捷',
+})
+</script>
 <template>
   <div class="container mx-auto mc">
     <h2 class="text-xl text-center mt-10 md:mt-20 md:text-3xl">关于冷捷</h2>
