@@ -5,7 +5,7 @@
     </ul>
     <ul class="mt-14">
       <li v-show="isShow1" class="flex flex-wrap justify-evenly items-center px-4 text-sm md:text-base mc text-justify md:flex-nowrap">
-        <img class="w-80 md:w-96" src="strengths-2.png" alt="数智科技">
+        <img class="w-80 md:w-96" src="/strengths-2.png" alt="数智科技">
         <div class="w-full md:w-1/2">
           <div class="pb-4">
             <h3 class="text-lg md:text-2xl pb-1 font-bold">智能引擎 高效调度运力</h3>
@@ -31,8 +31,8 @@
       </li>
       <li v-show="isShow2">
         <div class="flex justify-evenly items-center flex-wrap md:flex-nowrap">
-          <img class="w-80 mb-4 md:w-1/2" src="strengths-3.png">
-          <img class="w-80 mb-4 md:w-1/4" src="strengths-4.png">
+          <img class="w-80 mb-4 md:w-1/2" src="/strengths-3.png">
+          <img class="w-80 mb-4 md:w-1/4" src="/strengths-4.png">
         </div>
         <div class="mc w-11/12 mx-auto text-justify md:w-4/5">
           <div class="flex mb-2"><span class="font-bold">•</span>&nbsp;冷捷科技创始团队有着15年以上的业内经验，专业底蕴深厚，多元化的从业背景覆盖技术、运营、管理、主机厂和投融资各领域，拥有丰富的客户资源、车辆资源、区域资源、金融资源、运力资源，围绕冷链物流仓配各环节，发挥协同优势和规模效应，有效提升服务质量，降低运营成本。</div>
@@ -40,7 +40,7 @@
         </div>
       </li>
       <li v-show="isShow3" class="flex flex-wrap justify-evenly items-center px-4 text-sm md:text-base mc text-justify md:flex-nowrap">
-        <img class="w-80 md:w-96" src="strengths-5.png" alt="数智科技">
+        <img class="w-80 md:w-96" src="/strengths-5.png" alt="数智科技">
         <div class="w-full md:w-1/2">
           <div class="pb-4">
             <p><span class="font-bold">•</span> 冷捷科技通过推广数字化建设，冷链叠加智能设备系统、大数据和物联网技术，深化产业链上下游联动，链接货源、仓储、运力、金融保险、智能软硬件、主机厂、车后服务等资源，打造冷链物流与产业融合发展、资源共享的多元生态。</p>

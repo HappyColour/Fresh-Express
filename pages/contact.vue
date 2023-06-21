@@ -14,8 +14,8 @@ useHead({
         <h3>运力合作：齐先生  13581537388  微信同号</h3>
       </div>
       <div class="flex justify-evenly mt-10 md:mt-12">
-        <img class="w-28 md:w-60" src="qrcode.png" alt="qrcode" />
-        <img class="w-28 md:w-60" src="douyin.png" alt="douyin" />
+        <img class="w-28 md:w-60" src="/qrcode.png" alt="qrcode" />
+        <img class="w-28 md:w-60" src="/douyin.png" alt="douyin" />
       </div>
     </div>
   </div>

@@ -6,7 +6,7 @@
     </ul>
     <ul class="mt-14">
       <li v-show="isShow1" class="flex flex-wrap justify-evenly items-center px-4 text-sm md:text-base mc text-justify md:flex-nowrap">
-        <img class="w-80 md:w-96" src="platform.png" alt="冷捷B2B冷链物流科技平台">
+        <img class="w-80 md:w-96" src="/platform.png" alt="冷捷B2B冷链物流科技平台">
         <div class="w-full md:w-1/2">
           <div class="pb-4">
             <h3 class="text-lg md:text-2xl pb-1 font-bold">物流交易平台</h3>
@@ -27,8 +27,8 @@
       </li>
       <li v-show="isShow2">
         <div class="flex justify-evenly items-center flex-wrap md:flex-nowrap">
-          <img class="w-80 mb-4 md:w-96" src="service-1.png">
-          <img class="w-80 mb-4 md:w-96" src="service-2.png">
+          <img class="w-80 mb-4 md:w-96" src="/service-1.png">
+          <img class="w-80 mb-4 md:w-96" src="/service-2.png">
         </div>
         <div class="mc w-11/12 mx-auto text-justify md:w-4/5 md:whitespace-nowrap">
           <div class="flex flex-wrap mb-2"><span class="font-bold">•</span>&nbsp;<h3 class="font-bold">数字化运营：</h3>全流程数字化运营，订单全生命周期线上管控，形成物流、信息流、资金流、票据流的四流合一，优化冷链企业运营效率，以科技驱动完美交付。</div>
@@ -37,7 +37,7 @@
         </div>
       </li>
       <li v-show="isShow3">
-        <img class="w-11/12 mx-auto md:w-4/5" src="service-3.png" alt="全生态增值服务">
+        <img class="w-11/12 mx-auto md:w-4/5" src="/service-3.png" alt="全生态增值服务">
       </li>
     </ul>
   </div>

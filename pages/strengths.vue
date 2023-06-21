@@ -7,7 +7,7 @@ useHead({
   <div class="container mx-auto mc">
     <h2 class="text-center mc font-bold text-xl py-4 md:text-3xl md:py-10">核心价值</h2>
     <div class="flex flex-wrap justify-evenly items-center px-4 text-sm mb-4 md:mb-10 md:text-base mc text-justify md:flex-nowrap">
-      <img class="w-80 md:w-96" src="strengths-1.png" alt="数智科技">
+      <img class="w-80 md:w-96" src="/strengths-1.png" alt="数智科技">
       <div class="w-full md:w-1/2">
         <div class="pb-4">
           <h3 class="text-lg md:text-2xl pb-1 font-bold">数智科技 领先平台</h3>
