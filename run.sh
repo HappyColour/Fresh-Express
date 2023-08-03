@@ -1,4 +1,7 @@
 #! /bin/bash
+#! ./run.sh env
+#! ./run.sh run
+#! chmod 777 ./run.sh
 set -e
 
 SHELL_PATH=$(cd `dirname $0`; pwd)
@@ -10,6 +13,11 @@ copy_file() {
   mkdir -p clientServer
   cp -rf .output clientServer/
   cp -rf .nuxt clientServer/
+  cp -rf run.sh clientServer/
+}
+
+build_local() {
+	echo "over"
 }
 
 build_dev() {
@@ -31,5 +39,5 @@ build_run() {
 }
 
 cd $SHELL_PATH
-MODE=${1:-"local"}
+MODE=${1:-"prod"}
 "build_${MODE}";
