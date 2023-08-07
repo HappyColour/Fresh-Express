@@ -8,6 +8,12 @@ export default defineNuxtConfig({
     'nuxt-simple-sitemap',
     // '@vite-pwa/nuxt'
   ],
+  runtimeConfig: {
+    screct: process.env.NUXT_SCRECT,
+    public : {
+      serviceAPI: process.env.NUXT_SERVICE_API
+    }
+  },
   tailwindcss: {
     // add '~tailwind.config` alias
     exposeConfig: true

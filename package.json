@@ -2,7 +2,8 @@
   "name": "nuxt-app",
   "private": true,
   "scripts": {
-    "build": "nuxt build",
+    "build": "npx nuxi build --dotenv .env.production",
+    "test": "npx nuxi build --dotenv .env.test",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",

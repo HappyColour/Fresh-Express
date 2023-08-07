@@ -20,10 +20,10 @@ build_local() {
 	echo "over"
 }
 
-build_dev() {
+build_test() {
 	nvm use 18.16.0
 	pnpm install;
-	pnpm build;
+	pnpm test;
   copy_file
 }
 
@@ -34,8 +34,12 @@ build_prod() {
   copy_file;
 }
 
-build_run() {
-  node .output/server/index.mjs
+build_run_prod() {
+  NODE_ENV=production node .output/server/index.mjs
+}
+
+build_run_test() {
+  NODE_ENV=development node .output/server/index.mjs
 }
 
 cd $SHELL_PATH
